@@ -14,6 +14,9 @@
 		6B9ED6221B07994000AF6C1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9ED6211B07994000AF6C1D /* Images.xcassets */; };
 		6B9ED6251B07994000AF6C1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9ED6231B07994000AF6C1D /* LaunchScreen.xib */; };
 		6B9ED6311B07994000AF6C1D /* iOSMapAnnotationForLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9ED6301B07994000AF6C1D /* iOSMapAnnotationForLocationTests.m */; };
+		6B9ED63D1B07A29400AF6C1D /* MapAnnotaionViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9ED63B1B07A29400AF6C1D /* MapAnnotaionViewContoller.m */; };
+		6B9ED63E1B07A29400AF6C1D /* MapAnnotaionViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9ED63C1B07A29400AF6C1D /* MapAnnotaionViewContoller.xib */; };
+		6B9ED6401B07A55000AF6C1D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B9ED63F1B07A55000AF6C1D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		6B9ED62A1B07994000AF6C1D /* iOSMapAnnotationForLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMapAnnotationForLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9ED62F1B07994000AF6C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B9ED6301B07994000AF6C1D /* iOSMapAnnotationForLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMapAnnotationForLocationTests.m; sourceTree = "<group>"; };
+		6B9ED63A1B07A29400AF6C1D /* MapAnnotaionViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotaionViewContoller.h; sourceTree = "<group>"; };
+		6B9ED63B1B07A29400AF6C1D /* MapAnnotaionViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotaionViewContoller.m; sourceTree = "<group>"; };
+		6B9ED63C1B07A29400AF6C1D /* MapAnnotaionViewContoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapAnnotaionViewContoller.xib; sourceTree = "<group>"; };
+		6B9ED63F1B07A55000AF6C1D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9ED6401B07A55000AF6C1D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,10 @@
 		6B9ED6081B07993F00AF6C1D = {
 			isa = PBXGroup;
 			children = (
+				6B9ED63F1B07A55000AF6C1D /* MapKit.framework */,
+				6B9ED63A1B07A29400AF6C1D /* MapAnnotaionViewContoller.h */,
+				6B9ED63B1B07A29400AF6C1D /* MapAnnotaionViewContoller.m */,
+				6B9ED63C1B07A29400AF6C1D /* MapAnnotaionViewContoller.xib */,
 				6B9ED6131B07994000AF6C1D /* iOSMapAnnotationForLocation */,
 				6B9ED62D1B07994000AF6C1D /* iOSMapAnnotationForLocationTests */,
 				6B9ED6121B07994000AF6C1D /* Products */,
@@ -199,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9ED63E1B07A29400AF6C1D /* MapAnnotaionViewContoller.xib in Resources */,
 				6B9ED6201B07994000AF6C1D /* Main.storyboard in Resources */,
 				6B9ED6251B07994000AF6C1D /* LaunchScreen.xib in Resources */,
 				6B9ED6221B07994000AF6C1D /* Images.xcassets in Resources */,
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9ED63D1B07A29400AF6C1D /* MapAnnotaionViewContoller.m in Sources */,
 				6B9ED61D1B07994000AF6C1D /* ViewController.m in Sources */,
 				6B9ED61A1B07994000AF6C1D /* AppDelegate.m in Sources */,
 				6B9ED6171B07994000AF6C1D /* main.m in Sources */,
